@@ -29,6 +29,8 @@ None
 # Question 💡
 - How we would use Dark mode on other potential routes/components in a bigger application. How would you alter your solution for this?
 
+When using dark mode to other routes/components in a larger application, I would manage dark mode globally instead of adding it to every component. I would use the `useContext` React hook, which lets you manage the dark mode state across the entire application. By doing this, any route or component can easily use dark mode and apply the appropriate theme, which ensures consistency throughout the application.
+
 
 &nbsp;
 # What's Already Been Done 🏁
